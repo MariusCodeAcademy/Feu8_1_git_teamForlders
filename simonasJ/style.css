@@ -8,6 +8,12 @@ html {
   --primary-blue: #0693e3;
 }
 
+body {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 .btn-style-blue {
   background-color: var(--primary-soft-blue);
   border: 2px solid var(--primary-soft-blue);
@@ -32,6 +38,7 @@ html {
   font-weight: 700;
   line-height: 24px;
   min-width: 200px;
+  text-transform: uppercase;
   padding-bottom: 13px;
   padding-top: 13px;
   cursor: pointer;
@@ -43,6 +50,7 @@ html {
   justify-content: space-around;
   align-items: center;
 }
+
 .header-title {
   font-size: 24px;
   font-weight: 300;
@@ -63,14 +71,18 @@ html {
 
 /* HERO - START */
 .hero-title {
+  color: var(--primary-white);
   font-size: 32px;
   line-height: 40px;
   font-weight: 300;
+  margin-bottom: 24px;
 }
 
 .hero-subtitle {
+  color: var(--primary-white);
   font-size: 12px;
   font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .hero-text-container {
@@ -84,6 +96,17 @@ html {
 .hero-btn-container {
   display: flex;
   flex-direction: column;
+}
+
+.btn-style-blue,
+.btn-style-white {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-style-blue {
+  margin-bottom: 24px;
 }
 /* HERO - END */
 
@@ -119,14 +142,21 @@ html {
 }
 /* ARTICLES SECTION - END */
 
+/* mobile */
 @media screen and (min-width: 500px) {
 }
 
+/* tablet */
 @media screen and (min-width: 800px) {
 }
 
+/* desktop */
 @media screen and (min-width: 1200px) {
 }
 
+/* extra */
 @media screen and (min-width: 1500px) {
+  body {
+    max-width: 1700px;
+  }
 }
