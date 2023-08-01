@@ -9,7 +9,17 @@
   padding: 0;
   border: 0 solid transparent;
 }
-
+.sDemo {
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,10 +30,10 @@ ul {
   top: 0;
   width: 100%;
 }
-.lDemo {
-}
+
 li {
-  float: left;
+  display: flex;
+  flex-direction: row;
 }
 
 a {
