@@ -1,11 +1,35 @@
 @import 'reset.css';
 
+.mainHeader {
+  padding: 32px 0px;
+}
+
 .unlisted.mainMenu {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
 
-.unlisted.navItem {
-  text-transform: capitalize;
+.container.menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem {
+  display: none;
+}
+
+.navItem {
+  text-transform: uppercase;
+}
+
+.navItemLogo {
+  font-size: 24px;
+  font-weight: 300;
+  color: #666;
+}
+
+.fa-solid {
+  color: #3a52bf;
 }
