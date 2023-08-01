@@ -182,6 +182,8 @@ html {
 .projectsCont {
   padding-top: 80px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .projectOne {
@@ -208,4 +210,24 @@ html {
 
 .bottomMargin {
   margin-bottom: 40px;
+}
+
+/* what our customers say ========================================= */
+.parallaxThree {
+  background-image: url(img/photo-1451417379553-15d8e8f49cde.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.customerImg {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.name {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
 }
