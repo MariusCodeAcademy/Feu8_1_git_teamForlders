@@ -1,0 +1,11 @@
+.navBar {
+  display: flex;
+}
+
+.navBar ul {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
