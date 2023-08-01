@@ -1,1 +1,11 @@
 @import 'reset.css';
+
+.unlisted.mainMenu {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.unlisted.navItem {
+  text-transform: capitalize;
+}
