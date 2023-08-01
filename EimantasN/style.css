@@ -14,8 +14,40 @@
   box-sizing: inherit;
   max-height: 800px;
 }
+.heroTextDiv {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 30%;
+}
+.heroTextDiv h1 {
+  font-size: 60px;
+  color: #ffff;
+  font-weight: 400;
+  line-height: 64px;
+}
+.heroTextDiv p {
+  margin-top: 35px;
+  font-size: 14px;
+  color: #ffff;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.btnDiv {
+  margin-top: 35px;
+}
+.btnDiv button {
+  padding: 20px 15px;
+  width: 180px;
+}
+
 .hero {
   height: 100%;
+}
+li a {
+  color: black;
 }
 
 .navBarUl {
