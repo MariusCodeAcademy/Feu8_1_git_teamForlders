@@ -157,3 +157,43 @@ body {
 .portfolioBtn {
   margin-bottom: 50px;
 }
+
+/* Small Parallax */
+.smallParallaxSection {
+  height: 50vh;
+  text-align: center;
+  position: relative;
+}
+
+.sParallaxBg {
+  background-image: url('./images/photo-1452723312111-3a7d0db0e024.jpg');
+  min-height: 50vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sParallaxContent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+}
+
+.paddingBlock {
+  padding: 0 15px;
+  margin-bottom: 32px;
+}
+
+.sParallaxTitle {
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.sParallaxParagraph {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
