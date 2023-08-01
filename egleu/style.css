@@ -26,12 +26,18 @@ html {
   color: var(--primary-dark);
   font-weight: 400;
   margin-bottom: 24px;
+  margin-top: 0;
 }
 
 .text {
   font-size: 12px;
   margin-bottom: 24px;
   line-height: 24px;
+  font-weight: 400;
+}
+
+.grey {
+  color: var(--primary-light);
 }
 
 .btn {
@@ -139,14 +145,30 @@ html {
 
 /* small parallax section ==================================== */
 .parallaxTwo {
-  background-image: url(img/photo-1452723312111-3a7d0db0e024.jpg);
+  background-image: url('./img/photo-1452723312111-3a7d0db0e024.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
+
 .smallParallax {
   padding: 80px 0px;
   text-align: center;
+}
+
+/* limitless section ========================================== */
+.limitSection {
+  padding-top: 80px;
+  background-color: #f5f5f5;
+  padding-bottom: 0;
+}
+
+.limitText {
+  text-align: center;
+}
+
+.limitImg {
+  max-width: 100%;
 }
