@@ -1,0 +1,44 @@
+/* RESETS */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Global */
+body {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.headerTitle {
+  color: #333;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.burgerBtn {
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  color: #3a52bf;
+}
+
+.hidden {
+  display: none;
+}
