@@ -33,3 +33,7 @@
 .fa-solid {
   color: #3a52bf;
 }
+
+.read {
+  text-transform: uppercase;
+}
