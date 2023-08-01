@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -50,8 +53,9 @@ body {
 }
 .btn {
   font-size: 15px;
-  padding: 15px 45px;
+  padding: 15px 55px;
   border: none;
+  text-transform: uppercase;
 }
 .btn-2 {
   background-color: rgb(95, 11, 199);
@@ -61,4 +65,27 @@ body {
   color: white;
   background-color: transparent;
   border: 1.5px solid white;
+}
+.imgLaptop {
+  height: 600px;
+  width: 100%;
+}
+.h2Name {
+  color: black;
+  font-weight: 300;
+}
+.laptopText {
+  color: rgb(156, 156, 156);
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+.sectionLaptop {
+  padding: 15px 15px 100px 15px;
+}
+.imgLaptop2 {
+  height: 330px;
+}
+.sectionLaptop2 {
+  background-color: #f4f4f4;
 }
