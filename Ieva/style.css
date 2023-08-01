@@ -1,0 +1,22 @@
+
+
+
+
+/* header ======================================== */
+.mainHeader {
+    background-color: var(--primary-dark);
+  }
+  .mainHeader .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .burger {
+    font-size: 28px;
+    color: black;
+  }
+  
+  .nav {
+    display: none;
+  }
