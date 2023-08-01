@@ -2,7 +2,9 @@
 html {
   --primary-black: #0e1015;
   --primary-ligth-grey: #8c979e;
+  --primary-dark-grey: #666;
   --primary-soft-blue: #745cf9;
+  --primary-blue: #0693e3;
 }
 
 .btn-style {
@@ -19,6 +21,30 @@ html {
   color: #fff;
   line-height: 24px;
 }
+
+/* HEADER - START */
+.main-header .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 52px;
+  color: var(--primary-dark-grey);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.burger {
+  color: var(--primary-soft-blue);
+}
+
+.nav {
+  display: none;
+}
+/* HEADER - END */
 
 /* ARTICLES SECTION - START*/
 .arcticle-container {
