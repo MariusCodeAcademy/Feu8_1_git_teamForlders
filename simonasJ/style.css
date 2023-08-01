@@ -1,0 +1,49 @@
+/* COMMON STYLES */
+html {
+  --primary-soft-blue: #745cf9;
+  --primary-ligth-grey: #8c979e;
+}
+
+.btn-style {
+  background-color: var(--primary-soft-blue);
+  border: 2px solid var(--primary-soft-blue);
+  padding: 13px 26px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* ARTICLES SECTION - START*/
+.arcticle-container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.article-title {
+  margin-bottom: 24px;
+}
+
+.article-text {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--primary-ligth-grey);
+}
+/* ARTICLES SECTION - END */
+
+@media screen and (min-width: 500px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1500px) {
+}
