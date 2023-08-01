@@ -197,3 +197,28 @@ body {
   line-height: 24px;
   margin-bottom: 32px;
 }
+
+/* Limitless Options */
+.limitlessOptions {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 15px;
+}
+
+.limitlessTitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--darkGray);
+}
+
+.limitlessParagraph {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: var(--lightGray);
+}
+
+.limitlessBtn {
+  margin-bottom: 24px;
+}
