@@ -37,3 +37,12 @@
 .read {
   text-transform: uppercase;
 }
+
+.parallax {
+  background-image: url('./images/waterbg.jpeg');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
