@@ -1,12 +1,14 @@
 /* COMMON STYLES */
 html {
-  --primary-soft-blue: #745cf9;
+  --primary-black: #0e1015;
   --primary-ligth-grey: #8c979e;
+  --primary-soft-blue: #745cf9;
 }
 
 .btn-style {
   background-color: var(--primary-soft-blue);
   border: 2px solid var(--primary-soft-blue);
+  min-width: 200px;
   padding: 13px 26px;
   font-size: 12px;
   font-weight: 700;
@@ -15,6 +17,7 @@ html {
   border-radius: 0;
   text-align: center;
   color: #fff;
+  line-height: 24px;
 }
 
 /* ARTICLES SECTION - START*/
@@ -22,8 +25,21 @@ html {
   padding-right: 15px;
   padding-left: 15px;
 }
+.article1-container,
+.article2-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.article-image {
+  max-width: 100%;
+}
 
 .article-title {
+  color: var(--primary-black);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
   margin-bottom: 24px;
 }
 
