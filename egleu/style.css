@@ -231,3 +231,18 @@ html {
   font-weight: 700;
   font-size: 14px;
 }
+
+/* Our Main Clients========================================== */
+.ourClients {
+  padding: 80px 0px;
+}
+
+.clientLogos {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 60px;
+}
