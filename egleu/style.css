@@ -1,0 +1,45 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  --primary-dark: #0e1015;
+  --primary-light: #8c979e;
+  --secondary-1: #745cf9;
+}
+
+/* common styles=========================================== */
+.secondHeading {
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--primary-dark)
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  font-size: 24px;
+  font-weight: 300;
+  color: #666;
+}
+
+.menuBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.burgerMeniu {
+  color: #3a52bf;
+  font-size: 14px;
+}
