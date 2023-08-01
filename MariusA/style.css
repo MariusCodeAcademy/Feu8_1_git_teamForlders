@@ -47,6 +47,9 @@ body {
   display: none;
 }
 
+.caps {
+  text-transform: uppercase;
+}
 /* Intro */
 .introSection {
   position: relative;
@@ -64,14 +67,39 @@ body {
 
 .introElements {
   position: absolute;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 .introTitle {
   font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.introText {
+  font-size: 12px;
+  margin-bottom: 36px;
+}
+
+.btn {
+  min-width: 200px;
+  line-height: 24px;
+  padding: 13px 0;
+  color: white;
+  border-right: 2px solid white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btnPurple {
+  background-color: #745cf9;
+  border-color: #745cf9;
+}
+
+.btnTransparent {
+  background-color: transparent;
 }
