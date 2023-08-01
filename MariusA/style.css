@@ -226,3 +226,28 @@ body {
 .limitlessBtn {
   margin-bottom: 24px;
 }
+
+/* Our Latest Projects */
+.latestProjects {
+  display: flex;
+  flex-direction: column;
+}
+
+.latestProjTextBlock {
+  background-color: var(--darkGray);
+  padding: 80px 0 54px;
+  color: white;
+  text-align: center;
+}
+
+.latestProjTitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 44px;
+}
+
+.latestProjText {
+  font-weight: 400;
+  font-size: 12px;
+}
