@@ -36,8 +36,16 @@ html {
   font-weight: 400;
 }
 
+.centerText {
+  text-align: center;
+}
+
 .grey {
   color: var(--primary-light);
+}
+
+.white {
+  color: #fff;
 }
 
 .btn {
@@ -165,10 +173,39 @@ html {
   padding-bottom: 0;
 }
 
-.limitText {
-  text-align: center;
-}
-
 .limitImg {
   max-width: 100%;
+  display: block;
+}
+
+/* projects================================================== */
+.projectsCont {
+  padding-top: 80px;
+  background-color: black;
+}
+
+.projectOne {
+  position: relative;
+}
+
+.project1 {
+  width: 100%;
+  display: block;
+}
+
+.projectTitle {
+  position: absolute;
+  top: 45%;
+  left: 38%;
+}
+
+.projectTi {
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bottomMargin {
+  margin-bottom: 40px;
 }
