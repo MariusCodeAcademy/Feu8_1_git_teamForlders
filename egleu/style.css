@@ -14,6 +14,12 @@ html {
 }
 
 /* common styles=========================================== */
+.mainHeading {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
 .secondHeading {
   font-size: 24px;
   line-height: 32px;
@@ -94,13 +100,6 @@ html {
   top: 30%;
 }
 
-.mainTitle {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 300;
-  margin-bottom: 24px;
-}
-
 .textMain {
   color: #fff;
 }
@@ -136,4 +135,18 @@ html {
 
 .textPart {
   margin-bottom: 24px;
+}
+
+/* small parallax section ==================================== */
+.parallaxTwo {
+  background-image: url(img/photo-1452723312111-3a7d0db0e024.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.smallParallax {
+  padding: 80px 0px;
+  text-align: center;
 }
