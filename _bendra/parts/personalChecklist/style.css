@@ -1,0 +1,47 @@
+.personalPlanCard {
+  background-color: var(--primary-dark);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  margin-bottom: 85px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.unlisted {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.personalPlanText {
+  margin-bottom: 25px;
+}
+.personalPlanTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.personalPlanPrice {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+.personalPlanPar {
+  font-size: 16px;
+  line-height: 20px;
+}
+.personalPlanCard li {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 28px;
+  display: flex;
+  column-gap: 19px;
+  align-items: center;
+}
+.personalPlanCard li::before {
+  content: url("../../img/Icon.svg");
+  height: 18px;
+  width: 18px;
+}

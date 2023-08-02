@@ -1,0 +1,17 @@
+/* navigation */
+.headerNav li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+}
+.headerNav {
+  display: flex;
+  gap: 30px;
+}
+.mainHeader .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+/* hero */
