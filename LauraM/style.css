@@ -30,6 +30,12 @@ span {
   color: #666;
 }
 
+.heroSection {
+  height: 500px;
+  background-image: url(waves.jpg);
+  background-size: cover;
+}
+
 @media only screen and (max-width: 800px) {
   a {
     display: none;
