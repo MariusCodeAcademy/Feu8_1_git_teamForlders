@@ -1,7 +1,7 @@
 
 .workEverywhere {
     text-align: left;
-    background-color: --primary-dark;
+    background-color: var(--primary-dark);
   }
   .workEverywhere .text-part {
     margin-bottom: 60px;
@@ -14,4 +14,28 @@
   }
   .btn {
     margin-bottom: 100px;
+  }
+  .section {
+    padding: 80px 0;
+  }
+
+  .btn {
+    padding: 20px 40px;
+    display: inline-block;
+  }
+  
+  .sectionTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--secondary-4);
+    margin-bottom: 24px;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--secondary-4);
+    margin-bottom: 60px;
   }
