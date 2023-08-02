@@ -1,0 +1,52 @@
+@import '../../style/reset.css';
+
+.midFoot {
+  padding-top: 140px;
+  background-color: var(--primary-dark);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+.footerLogo {
+  padding-top: 20px;
+  object-fit: cover;
+  width: 50%;
+}
+.midFootText {
+  color: white;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footerListing {
+  list-style: none;
+  color: white;
+  padding-left: 0;
+  padding-top: 80px;
+}
+.titleListing {
+  font-weight: 700;
+  font-size: 18px;
+}
+.listingEl {
+  display: block;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.listingEl:hover {
+  color: var(--secondary-1);
+}
+.titleTry {
+  color: white;
+  padding-top: 80px;
+}
+.textTry {
+  color: white;
+  padding-left: 120px;
+  padding-right: 120px;
+  line-height: 30px;
+  padding-bottom: 23px;
+}
