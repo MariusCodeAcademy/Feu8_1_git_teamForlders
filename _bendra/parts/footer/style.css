@@ -96,6 +96,10 @@ footer {
   text-align: center;
 }
 
+.hr {
+  color: #fff;
+}
+
 @media (max-width: 500px) {
   .footerMenu ul {
     display: flex;
