@@ -13,6 +13,7 @@ a {
 }
 
 /* HEADER=========== */
+
 .mainHeader .container {
   display: flex;
   justify-content: space-between;
@@ -37,7 +38,68 @@ a {
 /* /Header */
 
 /* Hero========== */
+/* .hero {
+  position: static;
+} */
+
 .heroImg {
-  width: 100%;
+  position: absolute;
+  z-index: -10;
+  width: 10%;
+  /* height: 150%; */
+}
+
+.heroContent {
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.heroTitle {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  color: white;
+}
+
+.heroText {
+  color: white;
+}
+
+.heroBtn {
+  background: #745cf9;
+  color: #fff;
+  border: 2px solid #745cf9;
+  padding: 0 26px;
+  line-height: 36px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-right: 8px;
+  margin-bottom: 24px;
+  min-width: 200px;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.btn1:hover {
+  background-color: #5d42f6;
+  border: 2px solid #5d42f6;
+
+  color: white;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
 }
 /* /Hero========== */
