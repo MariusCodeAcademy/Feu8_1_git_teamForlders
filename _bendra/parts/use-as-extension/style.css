@@ -1,0 +1,26 @@
+.use-as-extension {
+    text-align: center;
+    background-color: var(--primary-dark);
+    padding-bottom: 80px;
+  }
+  
+  .use-as-extension .text-part {
+    margin-bottom: 60px;
+    padding-top: 40px;
+  }
+  
+  .sectionTitle1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: white;
+    margin-bottom: 24px;
+  }
+  
+  .section-text1 {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 60px;
+  }
