@@ -14,7 +14,7 @@ Darom sita puslapi https://colorlibhub.com/shapely/
 7. parsiuntimas sukels konfliktus jei ju yra
 8. istaisom konfliktus ir padarom commmit
 
-## testi darba toliau po to kai pabaigem task ir sukurem PR
+## testi darba(pradeti dirbti) toliau po to kai pabaigem task ir sukurem PR
 
 9. perinam i pagrindine saka (develop/main)
 10. parsisiunciam naujausius pakeitimus `git fetch`, `git pull`
