@@ -164,13 +164,14 @@ body {
 
 /* Small Parallax */
 .smallParallaxSection {
-  height: 50vh;
+  /* height: 50vh; */
   text-align: center;
   position: relative;
 }
 
 .sParallaxBg {
-  background-image: url('./images/photo-1452723312111-3a7d0db0e024.jpg');
+  /* background-image: url('./images/photo-1452723312111-3a7d0db0e024.jpg'); */
+  background-image: url(./images/photo-1452723312111-3a7d0db0e024.jpg);
   min-height: 50vh;
   background-position: center;
   background-attachment: fixed;
@@ -250,4 +251,54 @@ body {
 .latestProjText {
   font-weight: 400;
   font-size: 12px;
+}
+
+/* What Our Customers Say */
+.customersFeedbacks {
+  position: relative;
+  height: 490px;
+  overflow: hidden;
+}
+
+.customersFeedbacksBg {
+  background-image: url('images/photo-1451417379553-15d8e8f49cde.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 490px;
+}
+
+.customersFeedbacksContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 0 55px;
+}
+
+.customersFeedbacksTitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.customersFeedbacksParagraph {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.customerAvatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+.customersFeedbacksName {
+  margin: 0;
 }
