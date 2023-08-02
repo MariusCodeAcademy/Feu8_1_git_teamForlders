@@ -57,6 +57,7 @@ footer {
 
 .footerMenu ul li {
   display: block;
+  padding: 10px;
 }
 
 .footerMenu ul li a {
@@ -91,8 +92,8 @@ footer {
 .footerW {
   background: #043873;
   width: 100vw;
-  padding: 20px;
-  padding-bottom: 40px;
+  padding: 10px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -102,7 +103,8 @@ footer {
 
 @media (max-width: 500px) {
   .footerMenu ul {
-    display: flex;
+    display: inline-block;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
   }
