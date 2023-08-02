@@ -1,0 +1,30 @@
+
+/* project management==================================== */
+.textPart {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.projectSectionTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.projectSectionText {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.btn {
+  margin-bottom: 60px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 177px;
+  background-color: var(--secondary-2);
+}
+
