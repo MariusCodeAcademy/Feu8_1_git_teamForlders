@@ -25,13 +25,3 @@
   justify-content: center;
   align-items: center;
 }
-.btn {
-  background-color: var(--primary-light);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 20px;
-  width: 180px;
-  font-size: 20px;
-  /* justify-content: center; */
-}
