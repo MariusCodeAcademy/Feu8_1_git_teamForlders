@@ -7,6 +7,7 @@
   top: 30px;
   left: 50%;
   position: absolute;
+  z-index: -1;
 }
 
 .work-title {
@@ -17,6 +18,7 @@
   color: var(--secondary-dark);
   text-align: center;
   margin-bottom: 24px;
+  z-index: 10;
 }
 
 .work-intro {
