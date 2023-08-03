@@ -1,0 +1,36 @@
+.ourSponsorsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourSponsorsTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  color: var(--secondary-dark);
+}
+.ourSponsorsLogosBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourSponsorsLogo {
+  margin-bottom: 100px;
+}
+
+.appleLogo {
+  height: 68px;
+}
+
+.microsoftLogo,
+.googleLogo {
+  height: 46px;
+}
+
+.slackLogo {
+  height: 49px;
+}
+
+.googleLogo {
+  margin-bottom: 80px;
+}
