@@ -1,0 +1,10 @@
+.headerDiv {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainUl {
+  display: flex;
+  gap: 20px;
+}
