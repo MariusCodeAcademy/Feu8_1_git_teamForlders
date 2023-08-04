@@ -1,0 +1,48 @@
+/* WORK TOGETHER - START */
+.work-container {
+  position: relative;
+}
+
+.work-background-image {
+  top: 30px;
+  left: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.work-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--secondary-dark);
+  text-align: center;
+  margin-bottom: 24px;
+  z-index: 10;
+}
+
+.work-intro {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--secondary-dark);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.work-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.work-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  margin-bottom: 80px;
+}
+/* WORK TOGETHER - END */
